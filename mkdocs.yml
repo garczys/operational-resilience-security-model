@@ -1,1 +1,45 @@
-site_name: My Docs
+site_name: ORSM
+site_description: Operational Resilience Security Model
+site_author: Stefan Garczynski
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Introduction:
+      - What is ORSM?: introduction/what-is-orsm.md
+      - The Operational Security Paradox: introduction/security-paradox.md
+  - The Model:
+      - Foundational Principles: model/principles.md
+      - Assurance Model: model/assurance-model.md
+      - Architecture Design Principles: model/design-principles.md
+      - Assessment Domains: model/domains.md
+  - Assessment:
+      - Assessment Methodology: assessment/methodology.md
+      - Evidence Model: assessment/evidence.md
+      - Scoring: assessment/scoring.md
+      - Maturity Model: assessment/maturity.md
+  - Patterns:
+      - Good Patterns: patterns/good-patterns.md
+      - Anti-Patterns: patterns/anti-patterns.md
+  - Framework Integration:
+      - Overview: integration/index.md
+      - NIST CSF 2.0: integration/nist.md
+      - NCSC Secure by Design: integration/ncsc.md
+      - ISO 27001: integration/iso27001.md
+      - SABSA: integration/sabsa.md
+      - Zero Trust: integration/zero-trust.md
+  - Resources:
+      - ORSM Assurance Questions: resources/assurance-questions.md
+      - Architecture Decision Record: resources/adr.md
+      - Worked Examples: resources/examples.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
