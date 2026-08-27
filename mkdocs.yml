@@ -8,7 +8,9 @@ copyright: >
 
 theme:
   name: material
-  font: false
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
   logo: assets/images/orsm-mark.svg
   favicon: assets/images/orsm-mark.svg
 
@@ -36,6 +38,11 @@ theme:
     - navigation.top
     - navigation.footer
     - content.code.copy
+
+
+plugins:
+  - search
+  - privacy
 
 nav:
   - Home: index.md

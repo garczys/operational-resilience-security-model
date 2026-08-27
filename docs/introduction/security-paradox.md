@@ -1,9 +1,6 @@
 # The Operational Security Paradox
 
 
-<img src="../assets/images/orsm-security-paradox.svg" alt="The Operational Security Paradox" class="orsm-diagram">
-
-
 Enterprise security has become increasingly capable. Identity platforms,
 endpoint controls, privileged access management, segmentation,
 monitoring and governance have all improved the ability of organisations
