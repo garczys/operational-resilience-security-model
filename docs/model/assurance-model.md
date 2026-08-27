@@ -1,5 +1,9 @@
 # Assurance Model
 
+
+<img src="../assets/images/orsm-assurance-model.svg" alt="The ORSM Assurance Model" class="orsm-diagram">
+
+
 ORSM extends conventional assurance by evaluating not only whether
 controls exist, but whether they continue to deliver proportionate
 security outcomes throughout their operational lifecycle.

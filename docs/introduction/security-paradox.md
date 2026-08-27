@@ -1,5 +1,9 @@
 # The Operational Security Paradox
 
+
+<img src="../assets/images/orsm-security-paradox.svg" alt="The Operational Security Paradox" class="orsm-diagram">
+
+
 Enterprise security has become increasingly capable. Identity platforms,
 endpoint controls, privileged access management, segmentation,
 monitoring and governance have all improved the ability of organisations
@@ -50,6 +54,42 @@ therefore have consequences far beyond the security service itself.
 Individually justified capabilities accumulate until integration,
 maintenance and support overhead begin to consume the capacity required
 for improvement.
+
+<!-- ORSM-PARADOX-HARDENING-START -->
+
+## The ORSM Interpretation
+
+ORSM does not suggest that strong security controls inherently reduce resilience.
+
+The issue is more specific.
+
+A legitimate security requirement may lead to a justified control. That control is then implemented within an existing technical, organisational and operational environment.
+
+As more controls, dependencies and management mechanisms are introduced, their **cumulative architectural effect** may create operational consequences that were not visible when each decision was considered individually.
+
+A useful way to express this is:
+
+**Security Requirement → Justified Control → Implementation → Cumulative Architectural Effect → Operational Consequence**
+
+ORSM describes the resulting condition as the **Operational Security Paradox**:
+
+> **A condition in which individually justified security decisions, through their cumulative implementation and interaction, unintentionally increase operational risk or reduce the organisation's ability to operate, maintain or recover the systems they are intended to protect.**
+
+The paradox is therefore not an argument against strong security.
+
+It is an argument for ensuring that security implementation remains:
+
+- proportionate;
+- understandable;
+- supportable;
+- recoverable; and
+- aligned with realistic engineering and operational capacity.
+
+Where an architecture becomes difficult to sustain, the problem may not be the underlying protection objective.
+
+The implementation, integration or operating model may require improvement.
+
+<!-- ORSM-PARADOX-HARDENING-END -->
 
 ## The ORSM response
 

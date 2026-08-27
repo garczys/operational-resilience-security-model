@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="128"
+     height="128"
+     viewBox="0 0 128 128">
+
+  <rect width="128"
+        height="128"
+        rx="14"
+        fill="#20252b"/>
+
+  <path d="M25 38 H103"
+        stroke="#ffffff"
+        stroke-width="11"
+        stroke-linecap="round"/>
+
+  <path d="M25 64 H82"
+        stroke="#ffffff"
+        stroke-width="11"
+        stroke-linecap="round"/>
+
+  <path d="M25 90 H103"
+        stroke="#ffffff"
+        stroke-width="11"
+        stroke-linecap="round"/>
+
+  <path d="M87 64 H104"
+        stroke="#9f2f35"
+        stroke-width="11"
+        stroke-linecap="round"/>
+
+  <circle cx="105"
+          cy="64"
+          r="8"
+          fill="#9f2f35"/>
+</svg>

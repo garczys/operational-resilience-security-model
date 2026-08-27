@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 520">
+
+<style>
+  .title {
+    font: 700 34px Arial;
+    fill: #20252b;
+  }
+
+  .box-title {
+    font: 700 19px Arial;
+    fill: #20252b;
+  }
+
+  .box-text {
+    font: 15px Arial;
+    fill: #59636c;
+  }
+
+  .arrow {
+    stroke: #9f2f35;
+    stroke-width: 5;
+    fill: none;
+  }
+</style>
+
+<rect width="1200" height="520" rx="14" fill="#f6f7f8"/>
+
+<text x="600" y="55" text-anchor="middle" class="title">
+  The Operational Security Paradox
+</text>
+
+<!-- boxes -->
+
+<g>
+  <rect x="40" y="160" width="190" height="130" rx="10"
+        fill="#ffffff" stroke="#c9cdd1" stroke-width="2"/>
+
+  <text x="135" y="205"
+        text-anchor="middle"
+        class="box-title">
+    More Controls
+  </text>
+
+  <text x="135" y="240"
+        text-anchor="middle"
+        class="box-text">
+    Increased assurance
+  </text>
+</g>
+
+<g>
+  <rect x="275" y="160" width="190" height="130" rx="10"
+        fill="#ffffff" stroke="#c9cdd1" stroke-width="2"/>
+
+  <text x="370" y="205"
+        text-anchor="middle"
+        class="box-title">
+    Complexity
+  </text>
+
+  <text x="370" y="240"
+        text-anchor="middle"
+        class="box-text">
+    More dependencies
+  </text>
+</g>
+
+<g>
+  <rect x="510" y="160" width="190" height="130" rx="10"
+        fill="#ffffff" stroke="#c9cdd1" stroke-width="2"/>
+
+  <text x="605" y="205"
+        text-anchor="middle"
+        class="box-title">
+    Friction
+  </text>
+
+  <text x="605" y="240"
+        text-anchor="middle"
+        class="box-text">
+    Operational burden
+  </text>
+</g>
+
+<g>
+  <rect x="745" y="160" width="190" height="130" rx="10"
+        fill="#ffffff" stroke="#c9cdd1" stroke-width="2"/>
+
+  <text x="840" y="205"
+        text-anchor="middle"
+        class="box-title">
+    Fragility
+  </text>
+
+  <text x="840" y="240"
+        text-anchor="middle"
+        class="box-text">
+    Reduced recoverability
+  </text>
+</g>
+
+<g>
+  <rect x="980" y="160" width="180" height="130" rx="10"
+        fill="#20252b"/>
+
+  <text x="1070" y="205"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="19"
+        font-weight="700"
+        fill="#ffffff">
+    Operational Risk
+  </text>
+
+  <text x="1070" y="240"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="15"
+        fill="#ffffff">
+    Security becomes
+  </text>
+
+  <text x="1070" y="262"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="15"
+        fill="#ffffff">
+    a source of failure
+  </text>
+</g>
+
+<!-- arrows -->
+
+<path d="M230 225 H270" class="arrow"/>
+<polygon points="270,225 255,216 255,234" fill="#9f2f35"/>
+
+<path d="M465 225 H505" class="arrow"/>
+<polygon points="505,225 490,216 490,234" fill="#9f2f35"/>
+
+<path d="M700 225 H740" class="arrow"/>
+<polygon points="740,225 725,216 725,234" fill="#9f2f35"/>
+
+<path d="M935 225 H975" class="arrow"/>
+<polygon points="975,225 960,216 960,234" fill="#9f2f35"/>
+
+<text x="600"
+      y="380"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="24"
+      font-weight="700"
+      fill="#9f2f35">
+  Maximum assurance does not automatically mean maximum resilience.
+</text>
+
+<text x="600"
+      y="425"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="18"
+      fill="#59636c">
+  ORSM evaluates the cumulative operational effect of security architecture.
+</text>
+
+</svg>

@@ -4,32 +4,11 @@
 Operational Resilience Security Model
 </div>
 
-<!-- ORSM-HOMEPAGE-ACTIONS-START -->
-
-<div class="orsm-home-actions">
-
-<a href="model/" class="orsm-action orsm-action-primary">
-Explore the Model <span>→</span>
-</a>
-
-<a href="assessment/" class="orsm-action orsm-action-secondary">
-Apply ORSM <span>→</span>
-</a>
-
-</div>
-
-<p class="orsm-practice-link">
-Or see how ORSM works <a href="in-practice/">In Practice →</a>
-</p>
-
-<!-- ORSM-HOMEPAGE-ACTIONS-END -->
-
-
 <div class="orsm-hero-title">
 Security architecture that survives contact with reality.
 </div>
 
-<div class="orsm-hero-copy" markdown>
+<div class="orsm-hero-copy">
 ORSM is an architectural assurance framework for evaluating whether security controls continue to provide effective protection without creating disproportionate operational risk.
 </div>
 
@@ -38,13 +17,13 @@ ORSM is an architectural assurance framework for evaluating whether security con
 </div>
 
 
-<div class="orsm-split" markdown>
+<div class="orsm-split">
 
 <div class="orsm-split-label">
 The problem
 </div>
 
-<div class="orsm-split-content" markdown>
+<div class="orsm-split-content">
 
 ## Security can become a source of operational risk
 
@@ -59,13 +38,13 @@ ORSM calls this the **Operational Security Paradox**.
 </div>
 
 
-<div class="orsm-split" markdown>
+<div class="orsm-split">
 
 <div class="orsm-split-label">
 The governing question
 </div>
 
-<div class="orsm-split-content" markdown>
+<div class="orsm-split-content">
 
 > **Does this control improve security outcomes without creating disproportionate operational risk?**
 
@@ -78,13 +57,13 @@ It asks whether security remains **proportionate, sustainable, recoverable and o
 </div>
 
 
-<div class="orsm-split" markdown>
+<div class="orsm-split">
 
 <div class="orsm-split-label">
 07 domains
 </div>
 
-<div class="orsm-split-content" markdown>
+<div class="orsm-split-content">
 
 ## Operational Assessment Domains
 
@@ -95,43 +74,43 @@ ORSM evaluates architectural quality across seven dimensions.
 <div class="orsm-domain">
 <span class="orsm-domain-number">01</span>
 <div class="orsm-domain-title">Protection Intent</div>
-<div class="orsm-domain-copy" markdown>Does every capability exist for a clear and continuing business purpose?</div>
+<div class="orsm-domain-copy">Does every capability exist for a clear and continuing business purpose?</div>
 </div>
 
 <div class="orsm-domain">
 <span class="orsm-domain-number">02</span>
 <div class="orsm-domain-title">Complexity Management</div>
-<div class="orsm-domain-copy" markdown>Is architectural complexity understood, justified and actively controlled?</div>
+<div class="orsm-domain-copy">Is architectural complexity understood, justified and actively controlled?</div>
 </div>
 
 <div class="orsm-domain">
 <span class="orsm-domain-number">03</span>
 <div class="orsm-domain-title">Operational Sustainability</div>
-<div class="orsm-domain-copy" markdown>Can the organisation realistically operate and maintain the architecture?</div>
+<div class="orsm-domain-copy">Can the organisation realistically operate and maintain the architecture?</div>
 </div>
 
 <div class="orsm-domain">
 <span class="orsm-domain-number">04</span>
 <div class="orsm-domain-title">Operational Resilience</div>
-<div class="orsm-domain-copy" markdown>Can critical services continue when security capabilities fail?</div>
+<div class="orsm-domain-copy">Can critical services continue when security capabilities fail?</div>
 </div>
 
 <div class="orsm-domain">
 <span class="orsm-domain-number">05</span>
 <div class="orsm-domain-title">Recovery Engineering</div>
-<div class="orsm-domain-copy" markdown>Can security capability be restored rapidly, repeatably and predictably?</div>
+<div class="orsm-domain-copy">Can security capability be restored rapidly, repeatably and predictably?</div>
 </div>
 
 <div class="orsm-domain">
 <span class="orsm-domain-number">06</span>
 <div class="orsm-domain-title">Human Factors</div>
-<div class="orsm-domain-copy" markdown>Do controls align with realistic human and operational behaviour?</div>
+<div class="orsm-domain-copy">Do controls align with realistic human and operational behaviour?</div>
 </div>
 
 <div class="orsm-domain">
 <span class="orsm-domain-number">07</span>
 <div class="orsm-domain-title">Dependency Resilience</div>
-<div class="orsm-domain-copy" markdown>Does concentration on platforms, vendors or services create systemic risk?</div>
+<div class="orsm-domain-copy">Does concentration on platforms, vendors or services create systemic risk?</div>
 </div>
 
 </div>
@@ -141,13 +120,13 @@ ORSM evaluates architectural quality across seven dimensions.
 </div>
 
 
-<div class="orsm-split" markdown>
+<div class="orsm-split">
 
 <div class="orsm-split-label">
 The model
 </div>
 
-<div class="orsm-split-content" markdown>
+<div class="orsm-split-content">
 
 ## Assurance beyond control presence
 
@@ -170,13 +149,13 @@ The framework combines:
 </div>
 
 
-<div class="orsm-split" markdown>
+<div class="orsm-split">
 
 <div class="orsm-split-label">
 Relationship to existing frameworks
 </div>
 
-<div class="orsm-split-content" markdown>
+<div class="orsm-split-content">
 
 ## Complement, not replacement
 

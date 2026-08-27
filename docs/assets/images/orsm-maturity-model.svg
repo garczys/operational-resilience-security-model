@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 520">
+
+<rect width="1200" height="520" rx="14" fill="#f6f7f8"/>
+
+<text x="600"
+      y="55"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="34"
+      font-weight="700"
+      fill="#20252b">
+  ORSM Capability Maturity Model
+</text>
+
+<!-- progression line -->
+
+<line x1="120" y1="245" x2="1080" y2="245"
+      stroke="#c6cacf"
+      stroke-width="8"
+      stroke-linecap="round"/>
+
+<!-- L1 -->
+
+<circle cx="150" cy="245" r="56" fill="#ffffff" stroke="#20252b" stroke-width="3"/>
+<text x="150" y="238" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#20252b">L1</text>
+<text x="150" y="265" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636c">Reactive</text>
+
+<text x="150" y="340" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Control</text>
+<text x="150" y="363" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Accumulation</text>
+
+<!-- L2 -->
+
+<circle cx="375" cy="245" r="56" fill="#ffffff" stroke="#20252b" stroke-width="3"/>
+<text x="375" y="238" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#20252b">L2</text>
+<text x="375" y="265" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636c">Governed</text>
+
+<text x="375" y="340" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Governed</text>
+<text x="375" y="363" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Security</text>
+
+<!-- L3 -->
+
+<circle cx="600" cy="245" r="56" fill="#ffffff" stroke="#20252b" stroke-width="3"/>
+<text x="600" y="238" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#20252b">L3</text>
+<text x="600" y="265" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636c">Aligned</text>
+
+<text x="600" y="340" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Risk-Aligned</text>
+<text x="600" y="363" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Architecture</text>
+
+<!-- L4 -->
+
+<circle cx="825" cy="245" r="56" fill="#ffffff" stroke="#20252b" stroke-width="3"/>
+<text x="825" y="238" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#20252b">L4</text>
+<text x="825" y="265" text-anchor="middle" font-family="Arial" font-size="13" fill="#59636c">Resilient</text>
+
+<text x="825" y="340" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Operationally</text>
+<text x="825" y="363" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Resilient</text>
+
+<!-- L5 -->
+
+<circle cx="1050" cy="245" r="60" fill="#20252b" stroke="#9f2f35" stroke-width="6"/>
+<text x="1050" y="238" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#ffffff">L5</text>
+<text x="1050" y="265" text-anchor="middle" font-family="Arial" font-size="13" fill="#ffffff">Adaptive</text>
+
+<text x="1050" y="340" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Adaptive Security</text>
+<text x="1050" y="363" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#20252b">Ecosystem</text>
+
+<text x="600"
+      y="450"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="19"
+      font-weight="700"
+      fill="#9f2f35">
+  Increasing architectural quality · decreasing unnecessary complexity
+</text>
+
+</svg>

@@ -2,27 +2,75 @@ site_name: ORSM
 site_description: Operational Resilience Security Model
 site_author: Stefan Garczynski
 
+copyright: >
+  Copyright © 2026 Stefan Garczynski · ORSM 2.1 · Public Draft ·
+  Operational Resilience Security Model
+
 theme:
   name: material
+  font: false
+  logo: assets/images/orsm-mark.svg
+  favicon: assets/images/orsm-mark.svg
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
 
 nav:
   - Home: index.md
+
   - Introduction:
       - What is ORSM?: introduction/what-is-orsm.md
       - The Operational Security Paradox: introduction/security-paradox.md
+
   - The Model:
+      - Overview: model/index.md
       - Foundational Principles: model/principles.md
       - Assurance Model: model/assurance-model.md
       - Architecture Design Principles: model/design-principles.md
       - Assessment Domains: model/domains.md
+
   - Assessment:
+      - Overview: assessment/index.md
       - Assessment Methodology: assessment/methodology.md
       - Evidence Model: assessment/evidence.md
       - Scoring: assessment/scoring.md
       - Maturity Model: assessment/maturity.md
+
   - Patterns:
       - Good Patterns: patterns/good-patterns.md
       - Anti-Patterns: patterns/anti-patterns.md
+
+  - In Practice:
+      - Overview: in-practice/index.md
+      - High-Assurance Enterprise: in-practice/high-assurance-enterprise.md
+      - Lightweight Automation: in-practice/lightweight-automation.md
+      - Restricted Deployment: in-practice/restricted-deployment.md
+      - Trust Domain Transfer: in-practice/trust-domain-transfer.md
+      - Security Data Archive: in-practice/security-data-archive.md
+      - Security Tooling Ecosystem: in-practice/tooling-ecosystem.md
+
   - Framework Integration:
       - Overview: integration/index.md
       - NIST CSF 2.0: integration/nist.md
@@ -30,10 +78,18 @@ nav:
       - ISO 27001: integration/iso27001.md
       - SABSA: integration/sabsa.md
       - Zero Trust: integration/zero-trust.md
+
   - Resources:
       - ORSM Assurance Questions: resources/assurance-questions.md
       - Architecture Decision Record: resources/adr.md
       - Worked Examples: resources/examples.md
+
+  - About:
+      - About ORSM: about.md
+      - Version & Status: legal/version-status.md
+      - Copyright & Licence: legal/copyright.md
+      - Disclaimer: legal/disclaimer.md
+      - Trademark Notice: legal/trademarks.md
 
 markdown_extensions:
   - admonition
@@ -43,3 +99,6 @@ markdown_extensions:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css

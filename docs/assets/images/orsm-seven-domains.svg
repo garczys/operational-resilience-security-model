@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1000 780">
+
+<style>
+.title {
+  font: 700 34px Arial;
+  fill: #20252b;
+}
+
+.domain {
+  fill: #ffffff;
+  stroke: #20252b;
+  stroke-width: 2;
+}
+
+.domain-title {
+  font: 700 17px Arial;
+  fill: #20252b;
+}
+
+.line {
+  stroke: #adb3b8;
+  stroke-width: 3;
+}
+</style>
+
+<rect width="1000"
+      height="780"
+      rx="14"
+      fill="#f6f7f8"/>
+
+<text x="500"
+      y="55"
+      text-anchor="middle"
+      class="title">
+  ORSM Operational Assessment Domains
+</text>
+
+<!-- connecting structure -->
+
+<line x1="500" y1="370" x2="500" y2="170" class="line"/>
+<line x1="500" y1="370" x2="730" y2="230" class="line"/>
+<line x1="500" y1="370" x2="790" y2="470" class="line"/>
+<line x1="500" y1="370" x2="650" y2="625" class="line"/>
+<line x1="500" y1="370" x2="350" y2="625" class="line"/>
+<line x1="500" y1="370" x2="210" y2="470" class="line"/>
+<line x1="500" y1="370" x2="270" y2="230" class="line"/>
+
+<!-- centre -->
+
+<circle cx="500"
+        cy="370"
+        r="105"
+        fill="#20252b"/>
+
+<text x="500"
+      y="350"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="28"
+      font-weight="700"
+      fill="#ffffff">
+  ORSM
+</text>
+
+<text x="500"
+      y="385"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="15"
+      fill="#ffffff">
+  Operational
+</text>
+
+<text x="500"
+      y="408"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="15"
+      fill="#ffffff">
+  Architectural Quality
+</text>
+
+<!-- domains -->
+
+<g>
+<rect x="390" y="105" width="220" height="90" rx="10" class="domain"/>
+<text x="500" y="142" text-anchor="middle" class="domain-title">Protection Intent</text>
+<text x="500" y="168" text-anchor="middle" font-family="Arial" font-size="14" fill="#59636c">Purpose</text>
+</g>
+
+<g>
+<rect x="650" y="175" width="220" height="90" rx="10" class="domain"/>
+<text x="760" y="212" text-anchor="middle" class="domain-title">Complexity Management</text>
+<text x="760" y="238" text-anchor="middle" font-family="Arial" font-size="14" fill="#59636c">Simplicity</text>
+</g>
+
+<g>
+<rect x="690" y="425" width="250" height="90" rx="10" class="domain"/>
+<text x="815" y="462" text-anchor="middle" class="domain-title">Operational Sustainability</text>
+<text x="815" y="488" text-anchor="middle" font-family="Arial" font-size="14" fill="#59636c">Maintainability</text>
+</g>
+
+<g>
+<rect x="540" y="610" width="230" height="90" rx="10" class="domain"/>
+<text x="655" y="647" text-anchor="middle" class="domain-title">Operational Resilience</text>
+<text x="655" y="673" text-anchor="middle" font-family="Arial" font-size="14" fill="#59636c">Continuity</text>
+</g>
+
+<g>
+<rect x="230" y="610" width="230" height="90" rx="10" class="domain"/>
+<text x="345" y="647" text-anchor="middle" class="domain-title">Recovery Engineering</text>
+<text x="345" y="673" text-anchor="middle" font-family="Arial" font-size="14" fill="#59636c">Recoverability</text>
+</g>
+
+<g>
+<rect x="60" y="425" width="250" height="90" rx="10" class="domain"/>
+<text x="185" y="462" text-anchor="middle" class="domain-title">Human Factors</text>
+<text x="185" y="488" text-anchor="middle" font-family="Arial" font-size="14" fill="#59636c">Usability</text>
+</g>
+
+<g>
+<rect x="130" y="175" width="220" height="90" rx="10" class="domain"/>
+<text x="240" y="212" text-anchor="middle" class="domain-title">Dependency Resilience</text>
+<text x="240" y="238" text-anchor="middle" font-family="Arial" font-size="14" fill="#59636c">Systemic robustness</text>
+</g>
+
+<!-- ORSM accent -->
+
+<circle cx="500" cy="370" r="110"
+        fill="none"
+        stroke="#9f2f35"
+        stroke-width="6"/>
+
+</svg>
