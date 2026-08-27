@@ -3,40 +3,58 @@
 !!! info "Illustrative Scenario"
     This is a fictionalised, technology-neutral example. It does not represent any specific organisation, programme or implementation.
 
-## Scenario
+=== "Scenario"
 
-An organisation operates a segregated enterprise environment supporting sensitive and business-critical services.
+    An organisation operates a segregated enterprise environment supporting sensitive and business-critical services.
 
-The architecture includes multiple security layers providing access control, privileged administration, network separation, monitoring, controlled data movement and administrative isolation.
+    The architecture includes multiple security layers providing access control, privileged administration, network separation, monitoring, controlled data movement and administrative isolation.
 
-Each capability has a legitimate protection objective.
+    Each capability has a legitimate protection objective.
 
-Over time, however, the cumulative architecture has become increasingly interconnected.
+    Over time, however, the cumulative architecture has become increasingly interconnected.
 
-Routine administration requires several dependent services to remain available, while recovery activities rely upon some of the same security components used during normal operation.
+    Routine administration requires several dependent services to remain available, while recovery activities rely upon some of the same security components used during normal operation.
 
-## Traditional Assurance View
+=== "Traditional Assurance"
 
-Conventional assurance may reasonably examine whether:
+    Conventional assurance may reasonably examine whether:
 
-- access controls are appropriately implemented;
-- privileged activity is restricted and monitored;
-- network boundaries enforce intended policy;
-- administrative access is appropriately separated;
-- security monitoring is effective; and
-- information flows comply with organisational requirements.
+    - access controls are appropriately implemented;
+    - privileged activity is restricted and monitored;
+    - network boundaries enforce intended policy;
+    - administrative access is appropriately separated;
+    - security monitoring is effective; and
+    - information flows comply with organisational requirements.
 
-These remain important questions.
+    These remain important questions.
 
-## The ORSM Lens
+=== "The ORSM Lens"
 
-ORSM introduces an additional question:
+    ORSM introduces an additional question:
 
-> **Does the combined security architecture remain operable and recoverable when one or more security capabilities become unavailable?**
+    > **Does the combined security architecture remain operable and recoverable when one or more security capabilities become unavailable?**
 
-The concern is not whether an individual control is justified.
+    The concern is not whether an individual control is justified.
 
-The concern is whether the **cumulative operational effect** of the control estate has created fragility.
+    The concern is whether the **cumulative operational effect** of the control estate has created fragility.
+
+=== "Potential Outcome"
+
+    **Improve / Redesign**
+
+    The intended controls may remain entirely justified.
+
+    The resulting architecture may nevertheless require:
+
+    - independent recovery access;
+    - reduced dependency depth;
+    - documented degraded-mode operation;
+    - tested recovery paths; or
+    - simplification of overlapping control layers.
+
+    The objective is not fewer controls for their own sake.
+
+    The objective is ensuring that justified controls do not collectively prevent the organisation from operating or recovering.
 
 ## Relevant Domains
 
@@ -65,22 +83,6 @@ Each dependency is individually reasonable.
 
 Collectively, however, they create a **recoverability-critical dependency chain**.
 
-## Potential ORSM Outcome
-
-**Improve / Redesign**
-
-The intended controls remain justified, but the architecture may require:
-
-- independent recovery access;
-- reduced dependency depth;
-- documented degraded-mode operation;
-- tested recovery paths; or
-- simplification of overlapping control layers.
-
 ## ORSM Lesson
 
-**Strong assurance and operational survivability must be designed together.**
-
-The objective is not fewer controls for their own sake.
-
-The objective is ensuring that justified controls do not collectively prevent the organisation from operating or recovering.
+> **Strong assurance and operational survivability must be designed together.**
