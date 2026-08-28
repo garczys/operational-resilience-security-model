@@ -1141,3 +1141,43 @@ body {
   color: #d86b70;
 }
 
+
+/* =========================================================
+   ORSM Mobile Navigation Visibility Fix
+   ========================================================= */
+
+@media screen and (max-width: 76.234375em) {
+
+  /* Mobile hamburger/menu icon */
+  .md-header__button[for="__drawer"] {
+    color: #20252b !important;
+    opacity: 1 !important;
+  }
+
+  .md-header__button[for="__drawer"] svg {
+    fill: currentColor !important;
+  }
+
+  .md-header__button[for="__drawer"]:hover,
+  .md-header__button[for="__drawer"]:focus {
+    color: #9f2f35 !important;
+  }
+
+  /* Keep other mobile header icons visible too */
+  .md-header__button {
+    opacity: 1;
+  }
+
+}
+
+/* Dark mode equivalent */
+
+[data-md-color-scheme="slate"] .md-header__button[for="__drawer"] {
+  color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .md-header__button[for="__drawer"]:hover,
+[data-md-color-scheme="slate"] .md-header__button[for="__drawer"]:focus {
+  color: #d86b70 !important;
+}
+
