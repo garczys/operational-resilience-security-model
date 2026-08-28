@@ -3,38 +3,58 @@
 !!! info "Illustrative Scenario"
     This scenario is fictionalised and intentionally avoids specific technologies, scripting languages and organisational details.
 
-## Scenario
+=== "Scenario"
 
-A small internal service monitors defined file locations and performs controlled file-handling actions according to centrally managed configuration.
+    A small internal service monitors defined file locations and performs controlled file-handling actions according to centrally managed configuration.
 
-The service operates inside a restricted environment.
+    The service operates inside a restricted environment.
 
-It does not inspect or alter the contents of files, does not transmit information externally and requires only the permissions necessary to perform its defined function.
+    It does not inspect or alter file contents, does not transmit information externally and requires only the permissions necessary to perform its defined function.
 
-Because the service performs automated actions, stakeholders propose adding several additional security technologies and approval mechanisms.
+    Because the service performs automated actions, stakeholders propose adding several additional security technologies and approval mechanisms.
 
-## Traditional Assurance View
+=== "Traditional Assurance"
 
-Conventional assurance may examine:
+    Conventional assurance may reasonably examine:
 
-- service permissions;
-- configuration integrity;
-- audit logging;
-- change control;
-- code quality;
-- administrative access;
-- error handling; and
-- secure development practices.
+    - service permissions;
+    - configuration integrity;
+    - audit logging;
+    - change control;
+    - code quality;
+    - administrative access;
+    - error handling; and
+    - secure development practices.
 
-These controls may all be appropriate.
+    These remain appropriate considerations.
 
-## The ORSM Lens
+=== "The ORSM Lens"
 
-ORSM asks:
+    ORSM introduces a different question:
 
-> **Does the proposed security treatment remain proportionate to the actual threat and operating context?**
+    > **Does the proposed security treatment remain proportionate to the actual threat and operating context?**
 
-The security architecture should not become substantially more complex than the service it protects unless the additional risk reduction justifies that complexity.
+    The security architecture should not become substantially more complex than the service it protects unless that additional complexity delivers justified security benefit.
+
+    ORSM does not assume that additional controls are unnecessary.
+
+    It asks what risk each additional control addresses, what dependency it introduces and whether the resulting architecture remains sustainable.
+
+=== "Potential Outcome"
+
+    **Retain / Improve**
+
+    The automation capability may remain entirely justified.
+
+    The security implementation should nevertheless be simplified where additional complexity cannot demonstrate proportionate benefit.
+
+    Potential improvements may include:
+
+    - using existing security capabilities rather than introducing new platforms;
+    - reducing unnecessary administrative dependencies;
+    - automating assurance activities;
+    - simplifying configuration management; or
+    - removing controls whose operational cost substantially exceeds their additional security value.
 
 ## Relevant Domains
 
@@ -63,16 +83,10 @@ A proposed control may provide marginal additional protection while introducing:
 - new training requirements; and
 - another operational dependency.
 
-## Potential ORSM Outcome
-
-**Retain / Improve**
-
-The automation capability remains justified.
-
-The proposed security implementation should be simplified where additional complexity cannot demonstrate proportionate benefit.
+The security objective remains valid, but the implementation may be disproportionate to the credible risk.
 
 ## ORSM Lesson
 
-**Proportionality is a security property.**
+> **Proportionality is a security property.**
 
 Security architecture should reflect realistic risk rather than automatically applying maximum control intensity to every technical capability.

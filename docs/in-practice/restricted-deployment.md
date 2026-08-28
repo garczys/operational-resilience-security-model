@@ -3,32 +3,57 @@
 !!! info "Illustrative Scenario"
     This scenario is a fictional composite. It deliberately omits identifiable platforms, suppliers, environment names and implementation details.
 
-## Scenario
+=== "Scenario"
 
-An organisation develops infrastructure and application changes within an engineering environment and promotes approved artefacts into a more restricted operational environment.
+    An organisation develops infrastructure and application changes within an engineering environment and promotes approved artefacts into a more restricted operational environment.
 
-Deployment is performed through a controlled automation path rather than routine direct administrator access.
+    Deployment is performed through a controlled automation path rather than routine direct administrator access.
 
-The architecture introduces orchestration services, execution components, artefact repositories, credentials and approval mechanisms.
+    The architecture introduces orchestration services, execution components, artefact repositories, credentials and approval mechanisms.
 
-## Traditional Assurance View
+    Automation reduces some forms of direct privileged access while creating new technical trust relationships.
 
-Conventional assurance may examine:
+=== "Traditional Assurance"
 
-- source integrity;
-- peer review;
-- artefact integrity;
-- separation of duties;
-- privileged access;
-- deployment authorisation;
-- vulnerability assessment; and
-- audit logging.
+    Conventional assurance may reasonably examine:
 
-## The ORSM Lens
+    - source integrity;
+    - peer review;
+    - artefact integrity;
+    - separation of duties;
+    - privileged access;
+    - deployment authorisation;
+    - vulnerability assessment; and
+    - audit logging.
 
-ORSM asks whether the deployment mechanism itself has become a **critical operational dependency**.
+    These remain important security requirements.
 
-> **Can the organisation still administer, recover or rebuild the restricted environment if the normal automation chain is unavailable?**
+=== "The ORSM Lens"
+
+    ORSM asks whether the deployment mechanism itself has become a **critical operational dependency**.
+
+    > **Can the organisation still administer, recover or rebuild the restricted environment if the normal automation chain becomes unavailable?**
+
+    Automation does not eliminate architectural trust.
+
+    It changes where that trust resides.
+
+    The resulting orchestration, execution and artefact services therefore need to be assessed not only for security but also for availability, dependency and recovery.
+
+=== "Potential Outcome"
+
+    **Improve / Redesign**
+
+    Potential improvements may include:
+
+    - stronger instruction authenticity;
+    - simplified execution dependencies;
+    - independent recovery capability;
+    - separation between routine deployment and emergency recovery;
+    - reduction of standing privileged trust; and
+    - explicit testing of orchestration failure scenarios.
+
+    The objective is to retain the security benefits of automation without making the automation platform an unrecoverable point of dependency.
 
 ## Relevant Domains
 
@@ -51,26 +76,12 @@ ORSM asks whether the deployment mechanism itself has become a **critical operat
 
 ## Illustrative Finding
 
-The automated deployment model may substantially reduce direct privileged access while simultaneously concentrating trust in a small number of orchestration services.
+The automated deployment model may substantially reduce routine direct privileged access while simultaneously concentrating trust in a small number of orchestration services.
 
-The resulting architecture is therefore dependent upon those services remaining secure, available and recoverable.
-
-## Potential ORSM Outcome
-
-**Improve / Redesign**
-
-Potential improvements may include:
-
-- stronger instruction authenticity;
-- simplified execution dependencies;
-- independent recovery capability;
-- separation between routine deployment and emergency recovery; and
-- explicit testing of orchestration failure scenarios.
+The resulting architecture therefore depends upon those services remaining secure, available and recoverable.
 
 ## ORSM Lesson
 
-**Removing human privilege does not remove architectural trust.**
+> **Removing human privilege does not remove architectural trust.**
 
-Automation changes where trust resides.
-
-ORSM requires those trust relationships to remain visible, justified and survivable.
+Automation changes where trust resides. Those trust relationships must remain visible, justified and survivable.
