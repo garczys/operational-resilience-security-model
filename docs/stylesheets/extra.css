@@ -1237,3 +1237,155 @@ body {
   color: #d86b70;
 }
 
+
+/* =========================================================
+   ORSM RESPONSIVE LIFECYCLE COMPONENTS
+   ========================================================= */
+
+.orsm-flow {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.8rem 0 2rem;
+}
+
+.orsm-flow-stage {
+  position: relative;
+  flex: 1 1 130px;
+  min-width: 125px;
+  padding: 1rem 0.9rem;
+  border: 1px solid rgba(127, 127, 127, 0.28);
+  border-radius: 0.35rem;
+  background: rgba(127, 127, 127, 0.055);
+}
+
+.orsm-flow-stage strong {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  letter-spacing: 0.025em;
+}
+
+.orsm-flow-stage small {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.62rem;
+  line-height: 1.45;
+  opacity: 0.72;
+}
+
+.orsm-flow-number {
+  display: block;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  opacity: 0.45;
+}
+
+.orsm-flow-highlight {
+  border-color: #a92f38;
+  border-top: 3px solid #a92f38;
+}
+
+.orsm-flow-highlight .orsm-flow-number,
+.orsm-flow-highlight strong {
+  color: #b7353e;
+}
+
+.orsm-flow-arrow {
+  align-self: center;
+  flex: 0 0 auto;
+  font-size: 1rem;
+  opacity: 0.4;
+}
+
+.orsm-feedback {
+  flex-basis: 100%;
+  margin-top: 0.35rem;
+  padding: 0.7rem 1rem;
+  border-left: 3px solid #a92f38;
+  background: rgba(169, 47, 56, 0.055);
+}
+
+.orsm-feedback > span {
+  margin-right: 0.45rem;
+  color: #a92f38;
+  font-weight: 700;
+}
+
+.orsm-feedback strong {
+  font-size: 0.72rem;
+}
+
+.orsm-feedback small {
+  display: inline;
+  margin-left: 0.5rem;
+  font-size: 0.62rem;
+  opacity: 0.7;
+}
+
+
+/* ---------------------------------------------------------
+   Dark mode
+   --------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] .orsm-flow-stage {
+  border-color: rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+[data-md-color-scheme="slate"] .orsm-flow-highlight {
+  border-color: #c3444d;
+  border-top-color: #c3444d;
+}
+
+[data-md-color-scheme="slate"] .orsm-flow-highlight .orsm-flow-number,
+[data-md-color-scheme="slate"] .orsm-flow-highlight strong {
+  color: #d45a62;
+}
+
+[data-md-color-scheme="slate"] .orsm-feedback {
+  border-left-color: #c3444d;
+  background: rgba(195, 68, 77, 0.08);
+}
+
+
+/* ---------------------------------------------------------
+   Mobile
+   --------------------------------------------------------- */
+
+@media screen and (max-width: 44rem) {
+
+  .orsm-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 1.4rem 0 1.8rem;
+  }
+
+  .orsm-flow-stage {
+    width: 100%;
+    min-width: 0;
+    flex: none;
+  }
+
+  .orsm-flow-arrow {
+    align-self: center;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    transform: rotate(90deg);
+  }
+
+  .orsm-feedback {
+    margin-top: 0.7rem;
+  }
+
+  .orsm-feedback small {
+    display: block;
+    margin: 0.25rem 0 0 1.3rem;
+  }
+
+}
+

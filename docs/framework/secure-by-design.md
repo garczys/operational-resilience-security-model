@@ -120,46 +120,61 @@ resilient and recoverable as it is implemented and operated.
     ORSM can operate as a feedback mechanism within a Secure by Design
     lifecycle.
 
-        ESTABLISH CONTEXT
-               │
-               ▼
-        SECURE BY DESIGN
-               │
-        Security objectives
-        Threats and risks
-        Design principles
-        Control selection
-               │
-               ▼
-       SECURITY ARCHITECTURE
-               │
-               ▼
-          IMPLEMENTATION
-               │
-               ▼
-       ┌───────────────────────┐
-       │       ORSM LENS       │
-       │                       │
-       │ Protection Intent     │
-       │ Complexity            │
-       │ Sustainability        │
-       │ Resilience            │
-       │ Recovery              │
-       │ Human Factors         │
-       │ Dependencies          │
-       └───────────┬───────────┘
-                   │
-                   ▼
-          ARCHITECTURAL
-             JUDGEMENT
-                   │
-        ┌──────────┼──────────┐
-        ▼          ▼          ▼
-      RETAIN     IMPROVE    REDESIGN
-                   │
-                   ▼
-             FEEDBACK INTO
-                 DESIGN
+    <div class="orsm-flow orsm-flow-combined" markdown>
+
+    <div class="orsm-flow-stage">
+    <span class="orsm-flow-number">01</span>
+    <strong>Establish Context</strong>
+    <small>Purpose · threats · risk · constraints</small>
+    </div>
+
+    <span class="orsm-flow-arrow">→</span>
+
+    <div class="orsm-flow-stage">
+    <span class="orsm-flow-number">02</span>
+    <strong>Secure by Design</strong>
+    <small>Objectives · principles · control selection</small>
+    </div>
+
+    <span class="orsm-flow-arrow">→</span>
+
+    <div class="orsm-flow-stage">
+    <span class="orsm-flow-number">03</span>
+    <strong>Architecture</strong>
+    <small>Security translated into design</small>
+    </div>
+
+    <span class="orsm-flow-arrow">→</span>
+
+    <div class="orsm-flow-stage">
+    <span class="orsm-flow-number">04</span>
+    <strong>Implementation</strong>
+    <small>Controls become operational capability</small>
+    </div>
+
+    <span class="orsm-flow-arrow">→</span>
+
+    <div class="orsm-flow-stage orsm-flow-highlight">
+    <span class="orsm-flow-number">05</span>
+    <strong>ORSM Assurance</strong>
+    <small>Operational characteristics assessed</small>
+    </div>
+
+    <span class="orsm-flow-arrow">→</span>
+
+    <div class="orsm-flow-stage">
+    <span class="orsm-flow-number">06</span>
+    <strong>Architectural Judgement</strong>
+    <small>Retain · Improve · Redesign</small>
+    </div>
+
+    <div class="orsm-feedback">
+    <span>↳</span>
+    <strong>Feedback into Design</strong>
+    <small>Operational evidence informs the next architectural decision</small>
+    </div>
+
+    </div>
 
     This is intentionally a **feedback loop**, not an additional
     compliance gate.
@@ -324,24 +339,61 @@ been apparent during initial design.
 
 ORSM therefore supports periodic reassessment throughout the lifecycle:
 
-    DESIGN
-      │
-      ▼
-    IMPLEMENT
-      │
-      ▼
-    OPERATE
-      │
-      ▼
-    OBSERVE
-      │
-      ▼
-    ORSM ASSURANCE
-      │
-      ▼
-    ARCHITECTURAL JUDGEMENT
-      │
-      └──────────────► DESIGN
+<div class="orsm-flow orsm-flow-lifecycle" markdown>
+
+<div class="orsm-flow-stage">
+<span class="orsm-flow-number">01</span>
+<strong>Design</strong>
+<small>Establish architectural intent</small>
+</div>
+
+<span class="orsm-flow-arrow">→</span>
+
+<div class="orsm-flow-stage">
+<span class="orsm-flow-number">02</span>
+<strong>Implement</strong>
+<small>Translate intent into capability</small>
+</div>
+
+<span class="orsm-flow-arrow">→</span>
+
+<div class="orsm-flow-stage">
+<span class="orsm-flow-number">03</span>
+<strong>Operate</strong>
+<small>Run the architecture in practice</small>
+</div>
+
+<span class="orsm-flow-arrow">→</span>
+
+<div class="orsm-flow-stage">
+<span class="orsm-flow-number">04</span>
+<strong>Observe</strong>
+<small>Gather operational evidence</small>
+</div>
+
+<span class="orsm-flow-arrow">→</span>
+
+<div class="orsm-flow-stage orsm-flow-highlight">
+<span class="orsm-flow-number">05</span>
+<strong>ORSM Assurance</strong>
+<small>Assess operational characteristics</small>
+</div>
+
+<span class="orsm-flow-arrow">→</span>
+
+<div class="orsm-flow-stage">
+<span class="orsm-flow-number">06</span>
+<strong>Architectural Judgement</strong>
+<small>Retain · Improve · Redesign</small>
+</div>
+
+<div class="orsm-feedback">
+<span>↳</span>
+<strong>Return to Design</strong>
+<small>Evidence and experience inform the next design decision</small>
+</div>
+
+</div>
 
 This creates a continuous relationship between **security intent,
 implementation and operational evidence**.
