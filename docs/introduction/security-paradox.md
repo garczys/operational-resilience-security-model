@@ -18,6 +18,8 @@ controls are usually introduced for legitimate reasons: regulatory
 obligations, risk reduction, visibility, recognised good practice or
 response to an incident.
 
+> **Individually rational controls can produce collectively irrational architectures.**
+
 The problem emerges from their **cumulative architectural effect**.
 
 ## Observable failure patterns
