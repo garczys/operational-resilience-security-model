@@ -62,37 +62,6 @@ Explores control accumulation, integration complexity, operational workload and 
 
 > **What changes when an architect applies the ORSM lens?**
 
-
-## Beyond Enterprise IT
-
-Although several ORSM examples use enterprise technology scenarios, the model is not limited to traditional IT environments.
-
-The same assurance principles may be applied wherever security architecture interacts with operational delivery, including **ICS/OT, Critical National Infrastructure, cyber-physical systems and the built environment**.
-
-In these environments, factors such as safety, availability, engineering access, degraded operation, manual intervention, long technology lifecycles and physical consequence may significantly influence how the ORSM domains are interpreted.
-
-ORSM does not replace specialist frameworks, standards or engineering disciplines applicable to these environments. Instead, it provides an additional operational lens through which the resulting security architecture can be assessed.
-
-> **The domains remain consistent. The context, evidence and consequences change.**
-
-Future ORSM guidance may include additional illustrative scenarios demonstrating application of the model within these environments.
-
-
-## Beyond Enterprise IT
-
-Although several ORSM examples use enterprise technology scenarios, the model is not limited to traditional IT environments.
-
-The same assurance principles may be applied wherever security architecture interacts with operational delivery, including **ICS/OT, Critical National Infrastructure, cyber-physical systems and the built environment**.
-
-In these environments, factors such as safety, availability, engineering access, degraded operation, manual intervention, long technology lifecycles and physical consequence may significantly influence how the ORSM domains are interpreted.
-
-ORSM does not replace specialist frameworks, standards or engineering disciplines applicable to these environments. Instead, it provides an additional operational lens through which the resulting security architecture can be assessed.
-
-> **The domains remain consistent. The context, evidence and consequences change.**
-
-Future ORSM guidance may include additional illustrative scenarios demonstrating application of the model within these environments.
-
-
 ## Beyond Enterprise IT
 
 Although several ORSM examples use enterprise technology scenarios, the model is not limited to traditional IT environments.
