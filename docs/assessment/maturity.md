@@ -1,9 +1,6 @@
 # Capability Maturity Model
 
 
-<img src="../assets/images/orsm-maturity-model.svg" alt="The ORSM Capability Maturity Model" class="orsm-diagram">
-
-
 Within ORSM, maturity reflects the **quality of architectural
 decision-making**, not the number of controls implemented.
 
