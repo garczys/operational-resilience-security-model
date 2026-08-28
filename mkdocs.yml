@@ -69,6 +69,8 @@ nav:
       - Good Patterns: patterns/good-patterns.md
       - Anti-Patterns: patterns/anti-patterns.md
 
+  - Working with Established Approaches:
+      - ORSM and Secure by Design: framework/secure-by-design.md
   - In Practice:
       - Overview: in-practice/index.md
       - High-Assurance Enterprise: in-practice/high-assurance-enterprise.md
