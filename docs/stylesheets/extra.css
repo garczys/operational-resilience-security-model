@@ -1874,3 +1874,35 @@ body,
 /* =========================================================
    END ORSM TYPOGRAPHY SYSTEM
    ========================================================= */
+
+
+/* =========================================================
+   ORSM INSIGHTS
+   ========================================================= */
+
+.orsm-insight-label {
+  font-family: var(--orsm-font-technical);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  opacity: 0.82;
+}
+
+.orsm-insight-meta {
+  font-family: var(--orsm-font-body);
+  font-size: 0.78rem;
+  font-weight: 400;
+  opacity: 0.72;
+  margin-top: -0.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.md-typeset .orsm-insight-meta + p {
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+
+/* END ORSM INSIGHTS */

@@ -100,6 +100,9 @@ nav:
       - Disclaimer: legal/disclaimer.md
       - Trademark Notice: legal/trademarks.md
 
+  - Insights:
+      - Overview: insights/index.md
+      - "Insight 001 — Individually Rational Controls": insights/individually-rational-controls.md
 markdown_extensions:
   - admonition
   - attr_list
