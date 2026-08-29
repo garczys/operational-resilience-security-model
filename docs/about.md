@@ -41,6 +41,20 @@ ORSM developed from a recurring architectural observation: security controls tha
 
 The framework reflects practical experience of assessing security not simply as a collection of controls, but as an operational system that must remain **proportionate, supportable, recoverable and resilient**.
 
+<!-- ORSM-CONTACT-START -->
+
+## Contact ORSM
+
+Questions, practitioner feedback and constructive challenge are welcome.
+
+**hello@orsmframework.org**
+
+Please do not send classified, commercially sensitive, customer-identifiable or security-sensitive information.
+
+ORSM is a public framework project. Any information shared by email should be appropriately sanitised and suitable for transmission through normal email services.
+
+<!-- ORSM-CONTACT-END -->
+
 ## Independent Framework
 
 ORSM is independently developed and is not affiliated with, sponsored by or endorsed by NIST, NCSC, ISO, The SABSA Institute or vendors and organisations referenced within the framework.
