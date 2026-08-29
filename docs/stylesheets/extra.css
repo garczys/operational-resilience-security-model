@@ -1906,3 +1906,393 @@ body,
 
 
 /* END ORSM INSIGHTS */
+
+
+/* =========================================================
+   ORSM MEGA MENU PROTOTYPE
+   Canonical-inspired desktop navigation
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   Desktop only.
+
+   Material's original mobile drawer remains untouched.
+   --------------------------------------------------------- */
+
+@media screen and (min-width: 76.25em) {
+
+  /* Hide the existing giant Material tab strip */
+
+  .md-tabs {
+    display: none !important;
+  }
+
+
+  /* Main navigation bar */
+
+  .orsm-mega-nav {
+    position: sticky;
+    top: 2.4rem;
+    z-index: 4;
+
+    width: 100%;
+
+    background: #171a1e;
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+
+    font-family: var(
+      --orsm-font-body,
+      "Ubuntu Sans",
+      "Ubuntu",
+      sans-serif
+    );
+  }
+
+
+  .orsm-mega-inner {
+    display: flex;
+    align-items: stretch;
+
+    max-width: 76rem;
+    min-height: 3.25rem;
+
+    margin: 0 auto;
+    padding: 0 1.2rem;
+  }
+
+
+  /* ORSM wordmark / home */
+
+  .orsm-mega-home {
+    display: flex;
+    align-items: center;
+
+    padding: 0 1.3rem 0 0;
+
+    color: #ffffff !important;
+
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+
+    text-decoration: none !important;
+  }
+
+
+  .orsm-mega-home:hover {
+    color: #d45a62 !important;
+  }
+
+
+  .orsm-mega-items {
+    display: flex;
+    align-items: stretch;
+  }
+
+
+  .orsm-mega-item {
+    display: flex;
+    align-items: stretch;
+  }
+
+
+  /* -------------------------------------------------------
+     Top-level triggers
+     ------------------------------------------------------- */
+
+  .orsm-mega-trigger {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+
+    padding: 0 1rem;
+
+    border: 0;
+    background: transparent;
+
+    color: #d6d9dc;
+
+    font-family: inherit;
+    font-size: 0.74rem;
+    font-weight: 500;
+
+    cursor: pointer;
+  }
+
+
+  .orsm-mega-trigger > span {
+    margin-top: -0.1rem;
+    font-size: 0.85rem;
+    opacity: 0.55;
+  }
+
+
+  .orsm-mega-trigger:hover,
+  .orsm-mega-trigger:focus-visible,
+  .orsm-mega-trigger[aria-expanded="true"] {
+    color: #ffffff;
+    outline: none;
+  }
+
+
+  .orsm-mega-trigger::after {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+    left: 1rem;
+
+    height: 2px;
+
+    content: "";
+
+    background: transparent;
+  }
+
+
+  .orsm-mega-trigger-active::after,
+  .orsm-mega-trigger[aria-expanded="true"]::after {
+    background: #b7353e;
+  }
+
+
+  /* -------------------------------------------------------
+     Full-width panel
+     ------------------------------------------------------- */
+
+  .orsm-mega-panel {
+    position: absolute;
+
+    top: 100%;
+    right: 0;
+    left: 0;
+
+    z-index: 20;
+
+    width: 100vw;
+
+    background: #1d2126;
+
+    border-top: 1px solid rgba(255,255,255,0.06);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+
+    box-shadow:
+      0 16px 28px rgba(0,0,0,0.20);
+  }
+
+
+  .orsm-mega-panel[hidden] {
+    display: none !important;
+  }
+
+
+  .orsm-mega-panel-inner {
+    max-width: 76rem;
+
+    margin: 0 auto;
+    padding: 2.1rem 1.2rem 0;
+  }
+
+
+  .orsm-mega-panel-compact {
+    max-width: 64rem;
+  }
+
+
+  /* -------------------------------------------------------
+     Panel introduction
+     ------------------------------------------------------- */
+
+  .orsm-mega-heading {
+    margin-bottom: 1.5rem;
+  }
+
+
+  .orsm-mega-heading > span {
+    color: #d45a62;
+
+    font-family: var(
+      --orsm-font-technical,
+      "Ubuntu Mono",
+      monospace
+    );
+
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+  }
+
+
+  .orsm-mega-heading p {
+    max-width: 48rem;
+
+    margin: 0.45rem 0 0;
+
+    color: #aeb4b9;
+
+    font-size: 0.76rem;
+    line-height: 1.55;
+  }
+
+
+  /* -------------------------------------------------------
+     Columns
+     ------------------------------------------------------- */
+
+  .orsm-mega-grid {
+    display: grid;
+
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+
+    gap: 2rem;
+  }
+
+
+  .orsm-mega-grid-two {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+
+  .orsm-mega-column {
+    min-width: 0;
+  }
+
+
+  .orsm-mega-column h3 {
+    margin: 0 0 0.7rem;
+
+    color: #f6f7f8;
+
+    font-size: 0.67rem;
+    font-weight: 600;
+    letter-spacing: 0.035em;
+  }
+
+
+  .orsm-mega-column > a {
+    display: block;
+
+    margin: 0 -0.55rem;
+    padding: 0.55rem;
+
+    border-radius: 0.25rem;
+
+    text-decoration: none !important;
+  }
+
+
+  .orsm-mega-column > a:hover,
+  .orsm-mega-column > a:focus-visible {
+    background: rgba(255,255,255,0.055);
+    outline: none;
+  }
+
+
+  .orsm-mega-column strong {
+    display: block;
+
+    color: #e7e9eb;
+
+    font-size: 0.73rem;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+
+
+  .orsm-mega-column a:hover strong {
+    color: #ffffff;
+  }
+
+
+  .orsm-mega-column small {
+    display: block;
+
+    margin-top: 0.18rem;
+
+    color: #8f969d;
+
+    font-size: 0.61rem;
+    line-height: 1.45;
+  }
+
+
+  /* -------------------------------------------------------
+     Footer / CTA strip
+     ------------------------------------------------------- */
+
+  .orsm-mega-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    margin-top: 1.8rem;
+    padding: 1rem 0;
+
+    border-top:
+      1px solid rgba(255,255,255,0.09);
+  }
+
+
+  .orsm-mega-footer > div {
+    min-width: 0;
+  }
+
+
+  .orsm-mega-footer strong {
+    color: #ffffff;
+
+    font-size: 0.68rem;
+    font-weight: 600;
+  }
+
+
+  .orsm-mega-footer span {
+    margin-left: 0.6rem;
+
+    color: #90979d;
+
+    font-size: 0.62rem;
+  }
+
+
+  .orsm-mega-cta {
+    flex: 0 0 auto;
+
+    color: #e0666e !important;
+
+    font-size: 0.68rem;
+    font-weight: 600;
+
+    text-decoration: none !important;
+  }
+
+
+  .orsm-mega-cta:hover {
+    color: #ffffff !important;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   Hide prototype completely on tablet/mobile.
+
+   Material's normal drawer continues to operate.
+   --------------------------------------------------------- */
+
+@media screen and (max-width: 76.234375em) {
+
+  .orsm-mega-nav {
+    display: none !important;
+  }
+
+}
+
+
+/* END ORSM MEGA MENU PROTOTYPE */
+
