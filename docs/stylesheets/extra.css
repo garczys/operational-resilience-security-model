@@ -2296,3 +2296,147 @@ body,
 
 /* END ORSM MEGA MENU PROTOTYPE */
 
+
+/* =========================================================
+   ORSM UBUNTU LIGHT TYPOGRAPHY
+   Canonical-inspired hierarchy
+   ========================================================= */
+
+:root {
+  --orsm-font-body: "Ubuntu", system-ui, sans-serif;
+  --orsm-font-technical: "Ubuntu Mono", monospace;
+}
+
+/* Main content typography */
+
+.md-typeset {
+  font-family: var(--orsm-font-body);
+  font-size: 0.88rem;
+  line-height: 1.62;
+}
+
+/* Page title */
+
+.md-typeset h1 {
+  font-family: var(--orsm-font-body);
+  font-size: clamp(2.15rem, 3.2vw, 3.35rem);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  margin-top: 0;
+  margin-bottom: 1.05rem;
+}
+
+/* Major section heading */
+
+.md-typeset h2 {
+  font-family: var(--orsm-font-body);
+  font-size: clamp(1.55rem, 2vw, 2.05rem);
+  font-weight: 300;
+  line-height: 1.18;
+  letter-spacing: -0.015em;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Subsection */
+
+.md-typeset h3 {
+  font-family: var(--orsm-font-body);
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-top: 1.65rem;
+  margin-bottom: 0.55rem;
+}
+
+/* Smaller headings */
+
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: var(--orsm-font-body);
+  font-weight: 500;
+}
+
+/* Paragraphs */
+
+.md-typeset p {
+  font-size: 0.88rem;
+  line-height: 1.62;
+  margin-top: 0.55rem;
+  margin-bottom: 0.9rem;
+}
+
+/* Lists */
+
+.md-typeset li {
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
+
+/* Tables */
+
+.md-typeset table:not([class]) {
+  font-size: 0.80rem;
+}
+
+/* Admonitions */
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.83rem;
+}
+
+/* Blockquotes */
+
+.md-typeset blockquote {
+  font-size: 0.91rem;
+  line-height: 1.6;
+}
+
+/* Code remains technical */
+
+.md-typeset code,
+.md-typeset pre {
+  font-family: var(--orsm-font-technical);
+}
+
+/* Keep navigation slightly stronger than page headings */
+
+.md-header,
+.md-tabs,
+.md-nav,
+.orsm-mega-nav {
+  font-family: var(--orsm-font-body);
+}
+
+/* Mobile refinement */
+
+@media screen and (max-width: 44.984375em) {
+
+  .md-typeset {
+    font-size: 0.85rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 2.0rem;
+    line-height: 1.1;
+  }
+
+  .md-typeset h2 {
+    font-size: 1.48rem;
+  }
+
+  .md-typeset h3 {
+    font-size: 1.08rem;
+  }
+
+  .md-typeset p,
+  .md-typeset li {
+    font-size: 0.85rem;
+  }
+}
+
+/* END ORSM UBUNTU LIGHT TYPOGRAPHY */
+
