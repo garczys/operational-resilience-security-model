@@ -300,11 +300,12 @@
                   <div class="orsm-mega-column">
                     <h3>Latest</h3>
 
-                    <a href="/insights/individually-rational-controls/">
-                      <strong>Insight 001</strong>
+                    <a href="/insights/control-fatigue/">
+                      <strong>Insight 002</strong>
                       <small>
-                        Individually Rational Controls Can Produce
-                        Collectively Irrational Architectures
+                        Does it really need to be this way?
+                        <br>
+                        Control Fatigue
                       </small>
                     </a>
                   </div>
