@@ -85,6 +85,7 @@ nav:
 - Insights:
   - Overview: insights/index.md
   - Insight 001 — Individually Rational Controls: insights/individually-rational-controls.md
+  - "Insight 002 — Control Fatigue": insights/control-fatigue.md
 markdown_extensions:
 - admonition
 - attr_list

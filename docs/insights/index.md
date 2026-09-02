@@ -20,6 +20,16 @@ The articles may examine architectural complexity, operational resilience, secur
 
 ## Latest Insight
 
+### Control Fatigue
+
+**Does it really need to be this way?**
+
+Insight 002 explores control accumulation, architectural complexity, operational burden and whether every control we continue to operate still provides proportionate security value.
+
+[Read Insight 002 →](control-fatigue.md)
+
+---
+
 ### Individually Rational Controls Can Produce Collectively Irrational Architectures
 
 Security controls are rarely introduced without reason.
