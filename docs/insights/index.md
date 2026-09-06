@@ -20,6 +20,18 @@ The articles may examine architectural complexity, operational resilience, secur
 
 ## Latest Insight
 
+### The Implementation Gap
+
+**Your threat model may not be wrong. Your architecture may have moved on.**
+
+Threat knowledge can remain valuable even when the architecture, trust relationships, dependencies, control effectiveness and consequence around it have changed.
+
+Insight 003 explores why threat modelling should follow material architectural change rather than simply expire with age.
+
+[Read Insight 003 →](insight-003-the-implementation-gap.md)
+
+---
+
 ### Control Fatigue
 
 **Does it really need to be this way?**

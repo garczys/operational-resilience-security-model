@@ -86,6 +86,7 @@ nav:
   - Overview: insights/index.md
   - Insight 001 — Individually Rational Controls: insights/individually-rational-controls.md
   - "Insight 002 — Control Fatigue": insights/control-fatigue.md
+  - "Insight 003 — The Implementation Gap": insights/insight-003-the-implementation-gap.md
 markdown_extensions:
 - admonition
 - attr_list

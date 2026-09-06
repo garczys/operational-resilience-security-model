@@ -300,8 +300,8 @@
                   <div class="orsm-mega-column">
                     <h3>Latest</h3>
 
-                    <a href="/insights/control-fatigue/">
-                      <strong>Insight 002</strong>
+                    <a href="/insights/insight-003-the-implementation-gap/">
+                      <strong>Insight 003</strong>
                       <small>
                         Does it really need to be this way?
                         <br>
