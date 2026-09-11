@@ -1,7 +1,7 @@
 # Operational Assessment Domains
 
 
-<img src="../assets/images/orsm-seven-domains.svg" alt="The seven ORSM Operational Assessment Domains" class="orsm-diagram">
+<img src="/assets/images/orsm-seven-domains.svg" alt="The seven ORSM Operational Assessment Domains" class="orsm-diagram">
 
 
 Security architecture cannot be evaluated through a single measure. ORSM
