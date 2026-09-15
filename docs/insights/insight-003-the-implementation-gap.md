@@ -173,9 +173,9 @@ Yet failure or compromise of any of them could affect many services simultaneous
 
 This creates a useful distinction:
 
-**Asset Criticality** — how important the asset itself is.
+**Asset Criticality** - how important the asset itself is.
 
-**Trust Criticality** — how much of the architecture depends upon the asset remaining trustworthy, available and correctly functioning.
+**Trust Criticality** - how much of the architecture depends upon the asset remaining trustworthy, available and correctly functioning.
 
 A component with modest asset criticality may possess enormous trust criticality.
 

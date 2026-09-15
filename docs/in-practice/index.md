@@ -23,14 +23,14 @@ Instead, they demonstrate the additional operational lens introduced by ORSM.
 
 Each scenario follows a common structure:
 
-1. **Scenario** — a high-level architectural situation.
-2. **Traditional Assurance View** — the questions conventional assurance may reasonably ask.
-3. **The ORSM Lens** — the additional operational questions introduced by ORSM.
-4. **Relevant Domains** — the ORSM domains most directly involved.
-5. **Key Questions** — representative questions an assessor might explore.
-6. **Illustrative Finding** — an example of what ORSM might reveal.
-7. **Potential ORSM Outcome** — an example architectural decision direction.
-8. **ORSM Lesson** — the principle demonstrated by the scenario.
+1. **Scenario** - a high-level architectural situation.
+2. **Traditional Assurance View** - the questions conventional assurance may reasonably ask.
+3. **The ORSM Lens** - the additional operational questions introduced by ORSM.
+4. **Relevant Domains** - the ORSM domains most directly involved.
+5. **Key Questions** - representative questions an assessor might explore.
+6. **Illustrative Finding** - an example of what ORSM might reveal.
+7. **Potential ORSM Outcome** - an example architectural decision direction.
+8. **ORSM Lesson** - the principle demonstrated by the scenario.
 
 ## Initial Scenarios
 

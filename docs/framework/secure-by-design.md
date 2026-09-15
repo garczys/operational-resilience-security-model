@@ -425,9 +425,9 @@ ORSM provides one way of structuring that conversation.
 The following NCSC material provides the primary background for the
 Secure by Design concepts discussed on this page:
 
-- [NCSC — Secure Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles)
-- [NCSC — Cyber Security Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/cyber-security-design-principles)
-- [NCSC — Establish the Context Before Designing a System](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/establish-the-context-before-designing-a-system)
-- [NCSC — How the NCSC Thinks About Security Architecture](https://www.ncsc.gov.uk/blog-post/how-ncsc-thinks-about-security-architecture)
-- [NCSC — Secure by Default](https://www.ncsc.gov.uk/information/secure-default)
+- [NCSC - Secure Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles)
+- [NCSC - Cyber Security Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/cyber-security-design-principles)
+- [NCSC - Establish the Context Before Designing a System](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/establish-the-context-before-designing-a-system)
+- [NCSC - How the NCSC Thinks About Security Architecture](https://www.ncsc.gov.uk/blog-post/how-ncsc-thinks-about-security-architecture)
+- [NCSC - Secure by Default](https://www.ncsc.gov.uk/information/secure-default)
 

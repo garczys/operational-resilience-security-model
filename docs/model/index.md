@@ -12,7 +12,7 @@ The model combines principles, assurance tests, architectural decision criteria 
 
 The **Foundational Principles** establish the philosophy behind ORSM.
 
-They recognise that effective security architecture must remain proportionate, understandable, recoverable and sustainable — not simply comprehensive.
+They recognise that effective security architecture must remain proportionate, understandable, recoverable and sustainable - not simply comprehensive.
 
 [Explore the Foundational Principles →](principles.md)
 

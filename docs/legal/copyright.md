@@ -28,13 +28,13 @@ The specific licence will be confirmed separately before stable release.
 
 Where ORSM material is quoted, referenced or discussed, attribution should identify:
 
-**Operational Resilience Security Model (ORSM) — Stefan Garczynski**
+**Operational Resilience Security Model (ORSM) - Stefan Garczynski**
 
 Where practical, references should also identify the ORSM version used.
 
 For example:
 
-**Operational Resilience Security Model (ORSM) 2.1 — Stefan Garczynski**
+**Operational Resilience Security Model (ORSM) 2.1 - Stefan Garczynski**
 
 ## Modifications and Derivative Material
 

@@ -14,7 +14,7 @@ The rating provides a consistent way of expressing architectural condition, but 
 | **4** | Good | The architecture demonstrates strong operational characteristics supported by evidence, with identified risks understood and actively managed. |
 | **5** | Excellent | The architecture demonstrates mature, evidence-supported operational assurance, including effective management of complexity, dependencies, sustainability and recovery. |
 
-!!! warning "Ratings support judgement — they do not replace it"
+!!! warning "Ratings support judgement - they do not replace it"
     ORSM ratings are **ordinal indicators of architectural condition**, not mathematical measurements of security effectiveness.
 
     A rating of **4 is not twice as good as a rating of 2**.
@@ -80,13 +80,13 @@ The purpose of scoring is to help identify:
 
 The assessment should ultimately support an architectural decision such as:
 
-**Retain** — the capability remains justified and operationally proportionate.
+**Retain** - the capability remains justified and operationally proportionate.
 
-**Improve** — the capability remains justified but opportunities exist to improve sustainability, resilience or efficiency.
+**Improve** - the capability remains justified but opportunities exist to improve sustainability, resilience or efficiency.
 
-**Redesign** — the protection objective remains valid, but the implementation introduces unacceptable operational risk.
+**Redesign** - the protection objective remains valid, but the implementation introduces unacceptable operational risk.
 
-**Retire** — the capability no longer provides sufficient protection value to justify its operational cost or complexity.
+**Retire** - the capability no longer provides sufficient protection value to justify its operational cost or complexity.
 
 ## Scoring Principle
 

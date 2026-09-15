@@ -300,12 +300,12 @@
                   <div class="orsm-mega-column">
                     <h3>Latest</h3>
 
-                    <a href="/insights/insight-003-the-implementation-gap/">
-                      <strong>Insight 003</strong>
+                    <a href="/insights/insight-004-the-90-day-island-test/">
+                      <strong>Insight 004</strong>
                       <small>
-                        Does it really need to be this way?
+                        Could your OT environment survive without enterprise IT?
                         <br>
-                        Control Fatigue
+                        The 90-Day Island Test
                       </small>
                     </a>
                   </div>

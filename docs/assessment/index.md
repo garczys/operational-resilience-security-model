@@ -75,13 +75,13 @@ A high aggregate score should never conceal a material weakness in an individual
 
 ORSM assessment may lead to four broad directions:
 
-**Retain** — the capability remains justified and operationally proportionate.
+**Retain** - the capability remains justified and operationally proportionate.
 
-**Improve** — the capability remains justified but requires optimisation.
+**Improve** - the capability remains justified but requires optimisation.
 
-**Redesign** — the protection objective remains valid but the architecture introduces unacceptable operational risk.
+**Redesign** - the protection objective remains valid but the architecture introduces unacceptable operational risk.
 
-**Retire** — the control no longer provides sufficient value to justify its operational cost.
+**Retire** - the control no longer provides sufficient value to justify its operational cost.
 
 ## See ORSM in Practice
 

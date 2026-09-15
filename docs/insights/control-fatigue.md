@@ -183,7 +183,7 @@ This is control fatigue.
 
 It should not be dismissed as people simply finding security inconvenient.
 
-It can be an indication that the organisation is approaching — or has exceeded — the amount of security complexity it can sustainably operate.
+It can be an indication that the organisation is approaching - or has exceeded - the amount of security complexity it can sustainably operate.
 
 ---
 
@@ -271,7 +271,7 @@ Sometimes a legacy requirement may no longer be applicable.
 
 Sometimes two overlapping controls may provide less effective protection than one well-designed capability.
 
-And sometimes — perhaps counter-intuitively —
+And sometimes - perhaps counter-intuitively —
 
 > **Removing a control may improve the security of the overall system.**
 
@@ -319,7 +319,7 @@ Each generation inherits the decisions of the previous one and adds controls app
 
 Over time, the organisation can end up operating the cumulative consequence of years of individually defensible security decisions.
 
-This is closely related to the problem explored in **ORSM Insight 001 — Individually Rational Controls**.
+This is closely related to the problem explored in **ORSM Insight 001 - Individually Rational Controls**.
 
 But there is an important progression.
 
@@ -351,7 +351,7 @@ And ultimately:
 
 ## Related ORSM Material
 
-- [Insight 001 — Individually Rational Controls](individually-rational-controls.md)
+- [Insight 001 - Individually Rational Controls](individually-rational-controls.md)
 - [ORSM Assessment Domains](../model/domains.md)
 - [ORSM Assessment Methodology](../assessment/methodology.md)
 - [The Operational Security Paradox](../introduction/security-paradox.md)
