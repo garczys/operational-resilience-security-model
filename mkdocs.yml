@@ -5,6 +5,7 @@ copyright: ORSM — Operational Resilience Security Model · <a href="mailto:hel
   · © 2026
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Ubuntu
     code: Ubuntu Mono

@@ -2440,3 +2440,219 @@ body,
 
 /* END ORSM UBUNTU LIGHT TYPOGRAPHY */
 
+
+
+/* ==========================================================
+   ORSM FOOTER
+   ========================================================== */
+
+.orsm-footer {
+  margin-top: 4rem;
+  background:
+    linear-gradient(
+      135deg,
+      #111416 0%,
+      #171a1c 55%,
+      #111416 100%
+    );
+  border-top: 2px solid #e52222;
+  color: #d7d7d7;
+}
+
+.orsm-footer__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 4rem 2rem 2rem;
+}
+
+.orsm-footer__main {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1.15fr 1.3fr;
+  gap: 4rem;
+}
+
+.orsm-footer__brand {
+  min-width: 0;
+}
+
+.orsm-footer__mark {
+  display: block;
+  width: 78px;
+  height: auto;
+  margin-bottom: 1.25rem;
+}
+
+.orsm-footer__brand-text strong {
+  display: block;
+  margin-bottom: .25rem;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: .03em;
+}
+
+.orsm-footer__brand-text span {
+  color: #b9b9b9;
+  font-size: .72rem;
+  line-height: 1.5;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.orsm-footer__statement {
+  margin-top: 2rem;
+  color: #c7c7c7;
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+.orsm-footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .55rem;
+}
+
+.orsm-footer__column h3 {
+  position: relative;
+  margin: 0 0 1.25rem;
+  padding-bottom: .8rem;
+  color: #bdbdbd;
+  font-size: .72rem;
+  font-weight: 500;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.orsm-footer__column h3::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 32px;
+  height: 2px;
+  background: #e52222;
+  content: "";
+}
+
+.orsm-footer__column a {
+  color: #d2d2d2;
+  font-size: .82rem;
+  text-decoration: none;
+  transition:
+    color .15s ease,
+    transform .15s ease;
+}
+
+.orsm-footer__column a:hover {
+  color: #fff;
+  transform: translateX(2px);
+}
+
+.orsm-footer__connect p {
+  max-width: 280px;
+  margin-top: 1.25rem;
+  color: #999;
+  font-size: .76rem;
+  line-height: 1.65;
+}
+
+.orsm-footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-top: 3.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid #454545;
+  color: #8f8f8f;
+  font-size: .7rem;
+}
+
+.orsm-footer__bottom strong {
+  color: #d7d7d7;
+  font-weight: 400;
+}
+
+.orsm-footer__bottom p {
+  max-width: 850px;
+  margin: .75rem 0 0;
+  line-height: 1.6;
+}
+
+.orsm-footer__legal {
+  min-width: 260px;
+  text-align: right;
+}
+
+.orsm-footer__legal a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+.orsm-footer__legal a:hover {
+  color: #fff;
+}
+
+.orsm-footer__legal span {
+  display: inline-block;
+  width: 1px;
+  height: .9rem;
+  margin: 0 .8rem;
+  vertical-align: middle;
+  background: #e52222;
+}
+
+
+/* Tablet */
+
+@media screen and (max-width: 960px) {
+
+  .orsm-footer__main {
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 3rem;
+  }
+
+  .orsm-footer__connect {
+    grid-column: 1 / -1;
+  }
+
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+
+  .orsm-footer {
+    margin-top: 3rem;
+  }
+
+  .orsm-footer__inner {
+    padding: 3rem 1.25rem 1.5rem;
+  }
+
+  .orsm-footer__main {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .orsm-footer__connect {
+    grid-column: auto;
+  }
+
+  .orsm-footer__brand-text strong {
+    font-size: 2rem;
+  }
+
+  .orsm-footer__bottom {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .orsm-footer__legal {
+    min-width: 0;
+    text-align: left;
+  }
+
+}
