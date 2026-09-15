@@ -20,15 +20,15 @@ The articles may examine architectural complexity, operational resilience, secur
 
 ## Latest Insight
 
-### The Implementation Gap
+### The 90-Day Island Test
 
-**Your threat model may not be wrong. Your architecture may have moved on.**
+**Could your security architecture survive 90 days without the outside world?**
 
-Threat knowledge can remain valuable even when the architecture, trust relationships, dependencies, control effectiveness and consequence around it have changed.
+Insight 004 explores operational independence: whether an environment can continue to operate securely when external connectivity, cloud services, vendor support, update infrastructure or other dependencies are unavailable for an extended period.
 
-Insight 003 explores why threat modelling should follow material architectural change rather than simply expire with age.
+The test is not about eliminating dependencies. It is about understanding them, their consequences, and how long the architecture can continue to operate without them.
 
-[Read Insight 003 →](insight-003-the-implementation-gap.md)
+[Read Insight 004 →](insight-004-the-90-day-island-test.md)
 
 ---
 
