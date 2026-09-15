@@ -129,7 +129,7 @@ It is a **resilience stress test**.
 Its purpose is to stretch the architecture sufficiently far that dependencies which remain invisible during a short outage begin to emerge.
 
 <figure class="orsm-diagram">
-  <img src="../assets/images/orsm-90-day-island-test.svg" alt="The ORSM 90-Day Island Test timeline showing isolation at Day 1, dependency at Day 7, degradation at Day 30, sustainability at Day 60 and consequence at Day 90">
+  <img src="/assets/images/orsm-90-day-island-test.svg" alt="The ORSM 90-Day Island Test timeline showing isolation at Day 1, dependency at Day 7, degradation at Day 30, sustainability at Day 60 and consequence at Day 90">
 </figure>
 
 
