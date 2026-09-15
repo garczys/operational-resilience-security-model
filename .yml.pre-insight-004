@@ -1,0 +1,188 @@
+[1mdiff --git a/docs/assessment/index.md b/docs/assessment/index.md[m
+[1mindex 9259766..6077ab0 100644[m
+[1m--- a/docs/assessment/index.md[m
+[1m+++ b/docs/assessment/index.md[m
+[36m@@ -75,13 +75,13 @@[m [mA high aggregate score should never conceal a material weakness in an individual[m
+ [m
+ ORSM assessment may lead to four broad directions:[m
+ [m
+[31m-**Retain** — the capability remains justified and operationally proportionate.[m
+[32m+[m[32m**Retain** - the capability remains justified and operationally proportionate.[m
+ [m
+[31m-**Improve** — the capability remains justified but requires optimisation.[m
+[32m+[m[32m**Improve** - the capability remains justified but requires optimisation.[m
+ [m
+[31m-**Redesign** — the protection objective remains valid but the architecture introduces unacceptable operational risk.[m
+[32m+[m[32m**Redesign** - the protection objective remains valid but the architecture introduces unacceptable operational risk.[m
+ [m
+[31m-**Retire** — the control no longer provides sufficient value to justify its operational cost.[m
+[32m+[m[32m**Retire** - the control no longer provides sufficient value to justify its operational cost.[m
+ [m
+ ## See ORSM in Practice[m
+ [m
+[1mdiff --git a/docs/assessment/scoring.md b/docs/assessment/scoring.md[m
+[1mindex 9f5a2cf..8b5c2bd 100644[m
+[1m--- a/docs/assessment/scoring.md[m
+[1m+++ b/docs/assessment/scoring.md[m
+[36m@@ -14,7 +14,7 @@[m [mThe rating provides a consistent way of expressing architectural condition, but[m
+ | **4** | Good | The architecture demonstrates strong operational characteristics supported by evidence, with identified risks understood and actively managed. |[m
+ | **5** | Excellent | The architecture demonstrates mature, evidence-supported operational assurance, including effective management of complexity, dependencies, sustainability and recovery. |[m
+ [m
+[31m-!!! warning "Ratings support judgement — they do not replace it"[m
+[32m+[m[32m!!! warning "Ratings support judgement - they do not replace it"[m
+     ORSM ratings are **ordinal indicators of architectural condition**, not mathematical measurements of security effectiveness.[m
+ [m
+     A rating of **4 is not twice as good as a rating of 2**.[m
+[36m@@ -80,13 +80,13 @@[m [mThe purpose of scoring is to help identify:[m
+ [m
+ The assessment should ultimately support an architectural decision such as:[m
+ [m
+[31m-**Retain** — the capability remains justified and operationally proportionate.[m
+[32m+[m[32m**Retain** - the capability remains justified and operationally proportionate.[m
+ [m
+[31m-**Improve** — the capability remains justified but opportunities exist to improve sustainability, resilience or efficiency.[m
+[32m+[m[32m**Improve** - the capability remains justified but opportunities exist to improve sustainability, resilience or efficiency.[m
+ [m
+[31m-**Redesign** — the protection objective remains valid, but the implementation introduces unacceptable operational risk.[m
+[32m+[m[32m**Redesign** - the protection objective remains valid, but the implementation introduces unacceptable operational risk.[m
+ [m
+[31m-**Retire** — the capability no longer provides sufficient protection value to justify its operational cost or complexity.[m
+[32m+[m[32m**Retire** - the capability no longer provides sufficient protection value to justify its operational cost or complexity.[m
+ [m
+ ## Scoring Principle[m
+ [m
+[1mdiff --git a/docs/framework/secure-by-design.md b/docs/framework/secure-by-design.md[m
+[1mindex 751f324..be98b89 100644[m
+[1m--- a/docs/framework/secure-by-design.md[m
+[1m+++ b/docs/framework/secure-by-design.md[m
+[36m@@ -425,9 +425,9 @@[m [mORSM provides one way of structuring that conversation.[m
+ The following NCSC material provides the primary background for the[m
+ Secure by Design concepts discussed on this page:[m
+ [m
+[31m-- [NCSC — Secure Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles)[m
+[31m-- [NCSC — Cyber Security Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/cyber-security-design-principles)[m
+[31m-- [NCSC — Establish the Context Before Designing a System](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/establish-the-context-before-designing-a-system)[m
+[31m-- [NCSC — How the NCSC Thinks About Security Architecture](https://www.ncsc.gov.uk/blog-post/how-ncsc-thinks-about-security-architecture)[m
+[31m-- [NCSC — Secure by Default](https://www.ncsc.gov.uk/information/secure-default)[m
+[32m+[m[32m- [NCSC - Secure Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles)[m
+[32m+[m[32m- [NCSC - Cyber Security Design Principles](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/cyber-security-design-principles)[m
+[32m+[m[32m- [NCSC - Establish the Context Before Designing a System](https://www.ncsc.gov.uk/collection/cyber-security-design-principles/establish-the-context-before-designing-a-system)[m
+[32m+[m[32m- [NCSC - How the NCSC Thinks About Security Architecture](https://www.ncsc.gov.uk/blog-post/how-ncsc-thinks-about-security-architecture)[m
+[32m+[m[32m- [NCSC - Secure by Default](https://www.ncsc.gov.uk/information/secure-default)[m
+ [m
+[1mdiff --git a/docs/in-practice/index.md b/docs/in-practice/index.md[m
+[1mindex f1a1986..78332b5 100644[m
+[1m--- a/docs/in-practice/index.md[m
+[1m+++ b/docs/in-practice/index.md[m
+[36m@@ -23,14 +23,14 @@[m [mInstead, they demonstrate the additional operational lens introduced by ORSM.[m
+ [m
+ Each scenario follows a common structure:[m
+ [m
+[31m-1. **Scenario** — a high-level architectural situation.[m
+[31m-2. **Traditional Assurance View** — the questions conventional assurance may reasonably ask.[m
+[31m-3. **The ORSM Lens** — the additional operational questions introduced by ORSM.[m
+[31m-4. **Relevant Domains** — the ORSM domains most directly involved.[m
+[31m-5. **Key Questions** — representative questions an assessor might explore.[m
+[31m-6. **Illustrative Finding** — an example of what ORSM might reveal.[m
+[31m-7. **Potential ORSM Outcome** — an example architectural decision direction.[m
+[31m-8. **ORSM Lesson** — the principle demonstrated by the scenario.[m
+[32m+[m[32m1. **Scenario** - a high-level architectural situation.[m
+[32m+[m[32m2. **Traditional Assurance View** - the questions conventional assurance may reasonably ask.[m
+[32m+[m[32m3. **The ORSM Lens** - the additional operational questions introduced by ORSM.[m
+[32m+[m[32m4. **Relevant Domains** - the ORSM domains most directly involved.[m
+[32m+[m[32m5. **Key Questions** - representative questions an assessor might explore.[m
+[32m+[m[32m6. **Illustrative Finding** - an example of what ORSM might reveal.[m
+[32m+[m[32m7. **Potential ORSM Outcome** - an example architectural decision direction.[m
+[32m+[m[32m8. **ORSM Lesson** - the principle demonstrated by the scenario.[m
+ [m
+ ## Initial Scenarios[m
+ [m
+[1mdiff --git a/docs/insights/control-fatigue.md b/docs/insights/control-fatigue.md[m
+[1mindex 162ccee..5adec20 100644[m
+[1m--- a/docs/insights/control-fatigue.md[m
+[1m+++ b/docs/insights/control-fatigue.md[m
+[36m@@ -183,7 +183,7 @@[m [mThis is control fatigue.[m
+ [m
+ It should not be dismissed as people simply finding security inconvenient.[m
+ [m
+[31m-It can be an indication that the organisation is approaching — or has exceeded — the amount of security complexity it can sustainably operate.[m
+[32m+[m[32mIt can be an indication that the organisation is approaching - or has exceeded - the amount of security complexity it can sustainably operate.[m
+ [m
+ ---[m
+ [m
+[36m@@ -271,7 +271,7 @@[m [mSometimes a legacy requirement may no longer be applicable.[m
+ [m
+ Sometimes two overlapping controls may provide less effective protection than one well-designed capability.[m
+ [m
+[31m-And sometimes — perhaps counter-intuitively —[m
+[32m+[m[32mAnd sometimes - perhaps counter-intuitively —[m
+ [m
+ > **Removing a control may improve the security of the overall system.**[m
+ [m
+[36m@@ -319,7 +319,7 @@[m [mEach generation inherits the decisions of the previous one and adds controls app[m
+ [m
+ Over time, the organisation can end up operating the cumulative consequence of years of individually defensible security decisions.[m
+ [m
+[31m-This is closely related to the problem explored in **ORSM Insight 001 — Individually Rational Controls**.[m
+[32m+[m[32mThis is closely related to the problem explored in **ORSM Insight 001 - Individually Rational Controls**.[m
+ [m
+ But there is an important progression.[m
+ [m
+[36m@@ -351,7 +351,7 @@[m [mAnd ultimately:[m
+ [m
+ ## Related ORSM Material[m
+ [m
+[31m-- [Insight 001 — Individually Rational Controls](individually-rational-controls.md)[m
+[32m+[m[32m- [Insight 001 - Individually Rational Controls](individually-rational-controls.md)[m
+ - [ORSM Assessment Domains](../model/domains.md)[m
+ - [ORSM Assessment Methodology](../assessment/methodology.md)[m
+ - [The Operational Security Paradox](../introduction/security-paradox.md)[m
+[1mdiff --git a/docs/insights/insight-003-the-implementation-gap.md b/docs/insights/insight-003-the-implementation-gap.md[m
+[1mindex 99221cb..1bdaf5f 100644[m
+[1m--- a/docs/insights/insight-003-the-implementation-gap.md[m
+[1m+++ b/docs/insights/insight-003-the-implementation-gap.md[m
+[36m@@ -173,9 +173,9 @@[m [mYet failure or compromise of any of them could affect many services simultaneous[m
+ [m
+ This creates a useful distinction:[m
+ [m
+[31m-**Asset Criticality** — how important the asset itself is.[m
+[32m+[m[32m**Asset Criticality** - how important the asset itself is.[m
+ [m
+[31m-**Trust Criticality** — how much of the architecture depends upon the asset remaining trustworthy, available and correctly functioning.[m
+[32m+[m[32m**Trust Criticality** - how much of the architecture depends upon the asset remaining trustworthy, available and correctly functioning.[m
+ [m
+ A component with modest asset criticality may possess enormous trust criticality.[m
+ [m
+[1mdiff --git a/docs/legal/copyright.md b/docs/legal/copyright.md[m
+[1mindex b54bf81..f4930f3 100644[m
+[1m--- a/docs/legal/copyright.md[m
+[1m+++ b/docs/legal/copyright.md[m
+[36m@@ -28,13 +28,13 @@[m [mThe specific licence will be confirmed separately before stable release.[m
+ [m
+ Where ORSM material is quoted, referenced or discussed, attribution should identify:[m
+ [m
+[31m-**Operational Resilience Security Model (ORSM) — Stefan Garczynski**[m
+[32m+[m[32m**Operational Resilience Security Model (ORSM) - Stefan Garczynski**[m
+ [m
+ Where practical, references should also identify the ORSM version used.[m
+ [m
+ For example:[m
+ [m
+[31m-**Operational Resilience Security Model (ORSM) 2.1 — Stefan Garczynski**[m
+[32m+[m[32m**Operational Resilience Security Model (ORSM) 2.1 - Stefan Garczynski**[m
+ [m
+ ## Modifications and Derivative Material[m
+ [m
+[1mdiff --git a/docs/model/index.md b/docs/model/index.md[m
+[1mindex c97091c..368efba 100644[m
+[1m--- a/docs/model/index.md[m
+[1m+++ b/docs/model/index.md[m
+[36m@@ -12,7 +12,7 @@[m [mThe model combines principles, assurance tests, architectural decision criteria[m
+ [m
+ The **Foundational Principles** establish the philosophy behind ORSM.[m
+ [m
+[31m-They recognise that effective security architecture must remain proportionate, understandable, recoverable and sustainable — not simply comprehensive.[m
+[32m+[m[32mThey recognise that effective security architecture must remain proportionate, understandable, recoverable and sustainable - not simply comprehensive.[m
+ [m
+ [Explore the Foundational Principles →](principles.md)[m
+ [m
